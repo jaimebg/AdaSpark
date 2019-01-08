@@ -1,0 +1,108 @@
+V "GNAT Lib v2018"
+M P W=b
+A -x
+A ada
+A -gnatA
+A -g
+A -gnata
+A -gnat12
+A -fstack-check
+A -gnato
+A -gnatc
+P GP FX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U test_p3_1%b		test_p3_1.adb		cc98d0e2 OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W p3_1%s		p3_1.adb		p3_1.ali
+Z system%s		system.ads		system.ali
+W test_assertions%s	test_assertions.adb	test_assertions.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D p3_1.ads		20181024101652 6bc0dde4 p3_1%s
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D test_assertions.ads	20181004215146 c1dd7c95 test_assertions%s
+D test_p3_1.adb		20190101174604 ee98c2c9 test_p3_1%b
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r28
+X 4 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 1r32
+263U14*Put_Line 14|12s10 14s10 23s10 25s10 35s10 37s10 47s10 49s10 59s10
+. 61s10 72s10 74s10 85s10 87s10 98s10 100s10 104s4
+X 7 p3_1.ads
+1K9*P3_1 31e9 14|3w6 3r24
+4A9*Vector(integer)<integer> 14|30r17 42r17 54r17 66r17 67r17 79r17 80r17
+. 92r17 93r17
+6V13*Compare_To{boolean} 14|9s20 20s21
+14V13*Count_Lower_Elements{natural} 14|32s19 44s19 56s19
+22V13*Delete_Elements{4A9} 14|69s19 82s19 95s19
+X 13 test_assertions.ads
+1K9*Test_Assertions 15e20 14|2w6 2r28
+2X4*Assertion_Error 14|11r12 22r12 34r12 46r12 58r12 71r12 84r12 97r12
+10U14*Assert_True 14|9s7 32s7 44s7 56s7 69s7 82s7 95s7
+13U14*Assert_False 14|20s7
+X 14 test_p3_1.adb
+5U11*Test_P3_1 5b11 113l5 113t14
+6U14 Test_1 15l8 15t14 105s4
+7a7 Msg{string} 9r71 12r20 14r20
+17U14 Test_2 26l8 26t14 106s4
+18a7 Msg{string} 20r62 23r20 25r20
+28U14 Test_3 38l8 38t14 107s4
+29a7 Msg{string} 32r55 35r20 37r20
+30a7 Vector1{7|4A9} 32r40
+40U14 Test_4 50l8 50t14 108s4
+41a7 Msg{string} 44r56 47r20 49r20
+42a7 Vector1{7|4A9} 44r40
+52U14 Test_5 62l8 62t14 109s4
+53a7 Msg{string} 56r57 59r20 61r20
+54a7 Vector1{7|4A9} 56r40
+64U14 Test_6 75l8 75t14 110s4
+65a7 Msg{string} 69r57 72r20 74r20
+66a7 Vector1{7|4A9} 69r35
+67a7 Vector2{7|4A9} 69r48
+77U14 Test_7 88l8 88t14 111s4
+78a7 Msg{string} 82r57 85r20 87r20
+79a7 Vector1{7|4A9} 82r35
+80a7 Vector2{7|4A9} 82r48
+90U14 Test_8 101l8 101t14 112s4
+91a7 Msg{string} 95r57 98r20 100r20
+92a7 Vector1{7|4A9} 95r35
+93a7 Vector2{7|4A9} 95r48
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS test_p3_1__test_1 0
+GG EK_GLOBALS test_p3_1__test_1 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_true__2 p3_1__compare_to local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_p3_1__test_2 0
+GG EK_GLOBALS test_p3_1__test_2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_false__2 p3_1__compare_to local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_p3_1__test_3 0
+GG EK_GLOBALS test_p3_1__test_3 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_true__2 p3_1__count_lower_elements local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_p3_1__test_4 0
+GG EK_GLOBALS test_p3_1__test_4 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_true__2 p3_1__count_lower_elements local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_p3_1__test_5 0
+GG EK_GLOBALS test_p3_1__test_5 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_true__2 p3_1__count_lower_elements local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_p3_1__test_6 0
+GG EK_GLOBALS test_p3_1__test_6 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_true__2 p3_1__delete_elements local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_p3_1__test_7 0
+GG EK_GLOBALS test_p3_1__test_7 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_true__2 p3_1__delete_elements local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_p3_1__test_8 0
+GG EK_GLOBALS test_p3_1__test_8 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 test_assertions__assert_true__2 p3_1__delete_elements local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_p3_1 0
+GG EK_GLOBALS test_p3_1 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 6 ada__text_io__put_line__2 test_assertions__assert_true__2 test_assertions__assert_false__2 p3_1__compare_to p3_1__count_lower_elements p3_1__delete_elements local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

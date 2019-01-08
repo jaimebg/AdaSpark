@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__test_p3_1.o
+[PROJECT FILES]
+C:\Users\Jaime\Desktop\PR3-P1\practice_1.gpr
+20181015180508
+[BOUND OBJECT FILES]
+C:\Users\Jaime\Desktop\PR3-P1\obj\p3_1.o
+C:\Users\Jaime\Desktop\PR3-P1\obj\test_assertions.o
+C:\Users\Jaime\Desktop\PR3-P1\obj\test_p3_1.o
+[GENERATED SOURCE FILES]
+b__test_p3_1.ads
+b__test_p3_1.adb
+b__test_p3_1.ali
+[RESULTING OPTIONS]
+-LC:\Users\Jaime\Desktop\PR3-P1\obj\
+-LC:\Users\Jaime\Desktop\PR3-P1\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

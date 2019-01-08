@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 21" >
+      <vfs_project>C:\Users\Jaime\Desktop\PR3-P1\practice_1.gpr</vfs_project>
+      <vfs_file>C:\Users\Jaime\Desktop\PR3-P1\src\p3_1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 25" >
+      <vfs_project>C:\Users\Jaime\Desktop\PR3-P1\practice_1.gpr</vfs_project>
+      <vfs_file>C:\Users\Jaime\Desktop\PR3-P1\src\p3_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 2" >
+      <vfs_project>C:\Users\Jaime\Desktop\PR3-P1\practice_1.gpr</vfs_project>
+      <vfs_file>C:\Users\Jaime\Desktop\PR3-P1\src\p3_1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 17" >
+      <vfs_project>C:\Users\Jaime\Desktop\PR3-P1\practice_1.gpr</vfs_project>
+      <vfs_file>C:\Users\Jaime\Desktop\PR3-P1\src\p3_1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 25" >
+      <vfs_project>C:\Users\Jaime\Desktop\PR3-P1\practice_1.gpr</vfs_project>
+      <vfs_file>C:\Users\Jaime\Desktop\PR3-P1\src\p3_1.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 2" >
+      <vfs_project>C:\Users\Jaime\Desktop\PR3-P1\practice_1.gpr</vfs_project>
+      <vfs_file>C:\Users\Jaime\Desktop\PR3-P1\src\p3_1.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 38" line=" 17" >
+      <vfs_project>C:\Users\Jaime\Desktop\PR3-P1\practice_1.gpr</vfs_project>
+      <vfs_file>C:\Users\Jaime\Desktop\PR3-P1\src\p3_1.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

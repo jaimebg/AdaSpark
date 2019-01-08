@@ -1,0 +1,97 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -gnata
+A -gnat12
+A -fstack-check=specific
+A -gnato
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U p3_1%b		p3_1.adb		e0e49bbd NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W p3_1%s		p3_1.adb		p3_1.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U p3_1%s		p3_1.ads		6bc0dde4 EE NE OO PK
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-inteio.ads		20180524051738 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-tiinio.ads		20180524051736 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D p3_1.ads		20181024101652 6bc0dde4 p3_1%s
+D p3_1.adb		20190101174326 9eb2a143 p3_1%b
+D system.ads		20180524051738 32a08138 system%s
+D s-assert.ads		20180524051738 cd8d2c94 system.assertions%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 1r28 2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 13|2w10 2r35
+X 7 a-textio.ads
+49K13*Text_IO 471e16 13|1w10 1r32
+X 12 p3_1.ads
+1K9*P3_1 31l5 31e9 13|3w6 3r16 5b14 53l5 53t9
+2N4*Max 17r35 25r35 13|43r37
+4A9*Vector(integer)<integer> 14r44 22r39 22r71 13|11r39 11r71 12r20 36r44
+6V13*Compare_To{boolean} 7>7 8>7 10r23 12r46 13|6b13 9l8 9t18
+7a7 String1{string} 10r45 12r23 13|6b25 8r14
+8a7 String2{string} 10r54 12r33 13|6b43 8r22
+14V13*Count_Lower_Elements{natural} 14>34 14>52 16r23 19r22 13|12s32 36b13
+. 51l8 51t28
+14a34 Vector1{4A9} 16r55 17r18 18r27 20r35 20r52 13|36b34 39r16 40r13 46r30
+. 46r50 48r29 48r49
+14i52 Number{integer} 16r64 20r65 13|36b52 40r27 46r64 48r62
+20i30 K{integer} 20r60
+22V13*Delete_Elements{4A9} 22>30 22>47 24r23 27r23 29r27 13|11b13 34l8 34t23
+22a30 Vector1{4A9} 24r50 25r18 26r27 28r35 28r52 30r40 30r57 13|11b30 12r53
+. 18r16 19r13 20r30 26r64 29r30 29r50 31r29 31r49
+22i47 Number{integer} 24r59 28r65 30r71 13|11b47 12r62 19r27 29r64 31r62
+28i30 K{integer} 28r60
+30i35 K{integer} 30r65
+X 13 p3_1.adb
+12a7 Aux_Vector{12|4A9} 15r10 20m13 22r20 23r23 26r38 33r14
+13i7 j{natural} 20r24 21m13 21r18 22r16 26r33 28r16
+18i11 i{integer} 19r21 20r38 26r59 29r45 31r44
+29i25 K{integer} 29r58
+31i24 K{integer} 31r57
+37i7 Counter{natural} 41m13 41r24 43r45 45r16 50r14
+39i11 i{integer} 40r21 43r33 43r59 46r45 48r44
+46i25 K{integer} 46r58
+48i24 K{integer} 48r57
+

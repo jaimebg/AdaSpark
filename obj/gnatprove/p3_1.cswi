@@ -1,0 +1,12 @@
+20190101174642
+-c
+-x
+ada
+-gnatA
+-g
+-gnata
+-gnat12
+-fstack-check
+-gnato
+-gnatc
+-gnates=C:\Users\Jaime\Desktop\PR3-P1\obj\gnatprove\e09fe5cb.tmp
